@@ -1,26 +1,13 @@
 <template>
   <h1>慕课乐高标准模版</h1>
-  <ul>
-    <li>开箱即用</li>
-    <li>typescript</li>
-    <li>Vue3</li>
-    <li>支持 tsx</li>
-    <li>eslint</li>
-    <li>简单易用可扩展</li>
-  </ul>
-  <Hello msg = "dasdas21323" />
+  <a-button type="primary">Primary</a-button>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Hello from './components/Hello'
 
 export default defineComponent({
   name: 'App',
-  components:{
-    Hello
-  }
-  
 });
 </script>
 
